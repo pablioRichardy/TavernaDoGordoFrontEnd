@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import "mensagens.css";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(15, 15, 15);
+    
+    font-family: 'Roboto';
+    font-size: 24px;
+}
+
+.logo-img{
+    width: 72px;
+    height: 64px;
+}
+
+.bi{
+    fill: rgb(229, 208, 56);
+}
+.bi-eye{
+    cursor: pointer;
+}

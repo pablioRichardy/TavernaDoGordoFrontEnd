@@ -1,0 +1,107 @@
+@import "variaveis.css";
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 100svh;
+}
+
+/* Estilizando a logo */
+h1{
+    color: var(--preto);
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: var(--amarelo);
+}
+.logo{
+    display: flex;
+    align-items: center;
+
+    color: var(--amarelo);
+    font-weight: 900;
+    font-size: var(--font-grande);
+}
+img{
+    transform: rotate(-8deg);
+}
+
+/* Estilizando o formulário */
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    width: 100svw;
+    max-width: 560px;
+}
+.field{
+    border: 2px solid var(--amarelo);
+    border-radius: 20px;
+
+    padding: 5px;
+
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    font-size: var(--font-padrao);
+
+    width: 50%;
+}
+.txt{
+    background-color: var(--preto);
+    width: 85%;
+    border: none;
+    outline: none;
+
+    color: var(--amarelo);
+}
+.enviar{
+    cursor: pointer;
+
+    background-color: var(--preto);
+    color: var(--amarelo);
+
+    border: 2px solid var(--amarelo);
+    border-radius: 10px;
+
+    padding: 5px 20px 5px 20px;
+
+    font-size: var(--font-media);
+}
+.enviar:hover{
+    background-color: var(--amarelo);
+    color: var(--preto);
+
+    outline: 2px solid var(--amarelo);
+}
+span{
+    color: var(--amarelo);
+
+    font-size: var(--font-pequena);
+    font-weight: 200;
+}
+span > a{
+    color: var(--amarelo);
+}
+span > a:hover{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--amarelo);
+}
+.mostrar-senha{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    font-size: var(--font-pequena);
+    color: var(--amarelo);
+    width: 50%;
+}
+/* Mini regras globais */
+.bi{
+    font-size: 28px;
+    color: var(--amarelo);
+}

@@ -1,0 +1,29 @@
+@import "variaveis.css";
+
+#FeedBackErros{
+    font-size: var(--font-padrao);
+    font-weight: 300;
+    
+    max-width: 530px;
+
+    border-radius: 5px;
+    padding: 5px;
+
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+#sucesso{
+    color: yellowgreen;
+}
+#erro{
+    color: crimson;
+}
+.erro{
+    border: 3px solid crimson;
+    color: crimson;
+}
+.sucesso{
+    border: 3px solid yellowgreen;
+    color: yellowgreen;
+}

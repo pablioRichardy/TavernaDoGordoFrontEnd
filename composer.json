@@ -1,0 +1,15 @@
+{
+    "name": "tavernadogordo/frontend",
+    "description": "Uma aplicação para melhorar sua mesa de RPG.",
+    "autoload": {
+        "psr-4": {
+            "Tavernadogordo\\Frontend\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Pablio Richardy e Witor"
+        }
+    ],
+    "require": {}
+}

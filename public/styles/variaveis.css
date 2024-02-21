@@ -1,0 +1,9 @@
+:root{
+    --amarelo: rgb(229, 208, 56);
+    --preto: rgb(15, 15, 15);
+
+    --font-pequena: 0.7rem;
+    --font-padrao: 1rem;
+    --font-media: 1.5rem;
+    --font-grande: 2rem;
+}
